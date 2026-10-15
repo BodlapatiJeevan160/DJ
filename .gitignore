@@ -1,0 +1,51 @@
+﻿# Python environments
+venv/
+.venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Private JARVIS data
+memory.json
+history.json
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and generated output
+*.log
+benchmark_output.txt
+regression_output.txt
+
+# Editor and operating system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Local JARVIS databases
+data/memory_db/
+
+# Temporary debugging scripts
+_gen_test29.py
+_write_test29.py
+fix.py
+
+# Local logs and reports
+jarvis.log
+benchmark_output.txt
+regression_output.txt

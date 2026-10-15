@@ -1,0 +1,21 @@
+"""
+requirements.txt
+================
+All dependencies for JARVIS V1.
+"""
+ollama
+chromadb
+SpeechRecognition
+pyaudio
+faster-whisper
+pyttsx3
+psutil
+pyautogui
+playwright
+opencv-python
+pillow
+pyperclip
+pycaw
+screen-brightness-control
+openwakeword
+plyerwinotify
